@@ -1,0 +1,37 @@
+body {
+  background: purple;
+}
+
+#main {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#thermometer {
+  background: #0004ff; 
+  background: -moz-linear-gradient(left, #0004ff 0%, #ff0000 100%); 
+  background: -webkit-gradient(linear, left top, right top, 
+  color-stop(0%,#0004ff), color-stop(100%,#ff0000)); 
+  background: -webkit-linear-gradient(left, #0004ff 0%,#ff0000 100%);
+  background: -o-linear-gradient(left, #0004ff 0%,#ff0000 100%); 
+  background: -ms-linear-gradient(left, #0004ff 0%,#ff0000 100%); 
+  background: linear-gradient(to right, #0004ff 0%,#ff0000 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0004ff', 
+  endColorstr='#ff0000',GradientType=1 ); 
+  padding: 0 0 0 0;
+  border-radius: 20px;
+}
+
+#temperature {
+  background-color: black;
+  height: 50px;
+  width: 7px;
+  margin-left: 50%;
+}
+
+.indicator {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  line-height: 30px;
+}

@@ -35,3 +35,7 @@ body {
   color: white;
   line-height: 30px;
 }
+
+#direction-text {
+  display: inline-block;
+}
